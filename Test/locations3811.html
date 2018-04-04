@@ -1,0 +1,219 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="no-js" lang="en">
+  
+<!-- Mirrored from ufcgym.com/locations?source=memberships by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Jan 2018 05:22:57 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8"/>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"925a5a5ce7","applicationID":"11706301","transactionName":"Jg1YQBAJDlkEFhpAWhEHGUQDAQdGTghaUFIRC1laEQ==","queueTime":4,"applicationTime":430,"agent":""}</script>
+<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+    <title>Fitness Centers Near Me | Gym &amp; Training | UFC GYM</title>
+<meta name='description' content="Want to get in the best shape of your life? UFC GYM offers hundreds of locations and the best classes, training, and community around.">
+<meta content="Train Different" name="keywords"/>
+    <!-- OG Metadata -->
+<meta content="1058962990810268" property="og:app_id">
+<meta content="Locations" property="og:title"/>
+<meta content="Locations" property="og:description"/>
+<meta content="https./d18e80b7izstoq.cloudfront.net/assets/social_share/UFC_Social_Facebook-0c8bc63fa53a634862a4ecc343a50b22.png" property="og:image"/>
+
+<!-- Twitter Metadata -->
+<meta content="Train Different at UFC GYM" name="twitter:title"/>
+<meta content="Want to get in the best shape of your life? UFC GYM offers hundreds of locations and the best classes, training, and community around." name="twitter:description"/>
+<meta content="@ufcgym" name="twitter:site"/>
+<meta content="@ufcgym" name="twitter:creator"/>
+<meta content="https./d18e80b7izstoq.cloudfront.net/assets/social_share/UFC_Social_Twitter-b9a4e67163bd8da7ec5ee84b8f2c8c2b.png" name="twitter:image"/>
+<meta content="summary_large_image" name="twitter:card">
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
+    <script>
+  window.globals = {};
+  (function(d,s,i,r) {
+    if (d.getElementById(i)){return;}
+    var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+    n.id=i;n.src='//js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/1656882.js';
+    e.parentNode.insertBefore(n, e);
+  })(document,"script","hs-analytics",300000);
+</script>
+    <!-- Hotjar Tracking Code for ufcgym.com -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:413157,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+
+    <script src="../use.typekit.net/uhx2flb.js"></script>
+    <script>try{Typekit.load();}catch(e){}</script>
+    <link rel="stylesheet" media="screen" href="./d18e80b7izstoq.cloudfront.net/assets/application-f3ed13cf1ce173827ff24f7711e4f21e.css" />
+    <link rel="stylesheet" media="print" href="./d18e80b7izstoq.cloudfront.net/assets/print-f953c9a8af77652ceaac9f5cb35311af.css" />
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="XiDadL59bWSyuN5N8kYegKQwZ0nIyJsbY+bN8/rxjRC2Ea/sHG2gL2hP10OsPq5pziMXtVUW5jnxrIZqmTM9Pw==" />
+  </head>
+  <body class="document-body memberships" data-document-body="true" data-microsite-location-slug="">
+    <!-- Google Tag Manager -->
+<noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-MJJRL7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= '../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-MJJRL7');</script>
+<!-- End Google Tag Manager -->
+
+    <!--[if lte IE 9 ]>
+      <script>
+        window.location.replace("/upgrade");
+      </script>
+    <![endif]-->
+
+          <header class="global-header memberships-header">
+  <div class="menu-bar">
+    <a class="menu-bar__home-link" tabindex="201" data-ga-category="Nav" data-ga-action="InstraSite" data-ga-label="UFC GYM Logo" data-ga-delay="true" href="index.html"><img class="menu-bar__ufc-logo" src="./images/ufcgym_india.png" alt="Ufc logo" /></a>  </div>
+</header>
+
+
+    <div class="main-wrapper " data-main-wrapper="true">
+      
+<section class="locate-gym" data-locate-gym="true" data-source="memberships">
+  <div class="locate-gym__map-container locate-gym__map-container--large" data-map-container-large="true"></div>
+  <div class="locate-gym__content-wrapper">
+    <div class="locate-gym__column">
+
+      <div class="memberships__content-wrapper memberships__content-wrapper--locations-padding">
+        <ul class="memberships__breadcrumbs">
+          <li class="memberships__breadcrumb memberships__breadcrumb--current"><a href="locations3811.html?source=memberships">Choose a gym</a></li>
+          <li class="memberships__breadcrumb memberships__breadcrumb--inactive"><a>Membership</a></li>
+          <li class="memberships__breadcrumb memberships__breadcrumb--inactive"><a>Payment</a></li>
+          <li class="memberships__breadcrumb memberships__breadcrumb--inactive"><a>Review</a></li>
+        </ul>
+      </div>
+
+      <h2 class="locate-gym__title">FIND A GYM</h2>
+      <hr class="locate-gym__separator locate-gym__separator--margin" />
+      <form class="locate-gym__form table-wrapper" data-location-search-form="true">
+        <div class="table-wrapper__row">
+          <div class="table-wrapper__cell table-wrapper__cell--expanded">
+            <div class="search-input">
+              <input class="text-input text-input--prefix-icon locate-gym__text-input" type="text" placeholder="Enter Pincode or Area" onKeyUp="staticpagekeyup(event)" data-location-search-input="true" />
+            </div>
+          </div>
+          <div class="table-wrapper__cell">
+            <button name="button" type="submit" class="button button--collapsed" data-location-search-button="true" onclick="staticpage()"><span class="button__content" >Search</span></button>
+          </div>
+        </div>
+      </form>
+      <div class="locate-gym__scroll-wrapper">
+        <div class="locate-gym__scroll-content">
+          <div class="locate-gym__my-gym" data-location-search-my-gym="true"></div>
+          <div class="locate-gym__locations" data-location-search-results="true"></div>
+          <div class="locate-gym__map-container locate-gym__map-container--small" data-map-container-small="true"></div>
+        </div>
+      </div>
+      <div class="locate-gym__scroll-indicator" data-locate-gym-scroll-indicator="true">
+        <i class="icon-arrow-down"></i>SCROLL FOR MORE RESULTS
+      </div>
+    </div>
+  </div>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD01zDIGLZryyCmBReduX-IxZp04XZCM0c"></script> -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCypuTMILJDEbG-6Oj-2oCSSTa_lJTbU78" type="text/javascript"></script> 
+
+</section>
+
+
+
+    </div>
+    <footer class="global-footer" data-global-footer="true">
+  <nav class="footer-social">
+    <div class="footer-social__content-wrapper">
+      <section class="newsletter-signup">
+        <h3 class="newsletter-signup__title">SIGN UP FOR UPDATES</h3>
+          <div class="table-wrapper newsletter-signup__table-wrapper">
+            <div class="table-wrapper__row">
+              <form data-sign-up-request-form="true" action="https://ufcgym.com/api/sign_up_requests" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="ILY9qUIfnqwLqb3o6ON5YDjzxCkiXIuVNNQXstJwY0DIh0gx4A9T59FetOa2m8mJUuC01b+C9remnlwrsbLTbw==" />
+                <div class="table-wrapper__cell table-wrapper__cell--expanded table-wrapper__cell--align-left">
+                  <input class="text-input text-input--plain newsletter-signup__text-input" type="email" placeholder="Enter your Email Address" name="sign_up_request[email]" data-sign-up-request-form-email="true" />
+                </div>
+                <div class="table-wrapper__cell">
+                  <button name="button" type="submit" class="button button--collapsed newsletter-signup__cta"><span class="button__content">Sign Up</span></button>
+                </div>
+</form>            </div>
+          </div>
+      </section>
+      <section class="social-links">
+        <h3 class="social-links__title">GET CONNECTED</h3>
+        <ul class="social-links__list">
+          <li class="social-links__item"><a class="social-links__link" target="_blank" href="https://www.facebook.com/ufcgymindia/">            <i class="icon-facebook"><span class="sr-only">Facebook</span></i>
+          </a></li>
+          <li class="social-links__item"><a class="social-links__link" target="_blank" href="https://twitter.com/ufcgymindia">            <i class="icon-twitter"><span class="sr-only">Twitter</span></i>
+          </a></li>
+          <li class="social-links__item"><a class="social-links__link" target="_blank" href="https://www.youtube.com/channel/UCmHdOj9At3R6p93fG1hf7Rw">            <i class="icon-youtube"><span class="sr-only">Youtube</span></i>
+          </a></li>
+          <li class="social-links__item"><a class="social-links__link" target="_blank" href="https://www.instagram.com/ufcgymindia/">            <i class="icon-instagram"><span class="sr-only">Instagram</span></i>
+          </a></li>
+        </ul>
+      </section>
+    </div>
+  </nav>
+  <nav class="footer-nav">
+    <div class="footer-nav__content-wrapper">
+      <section class="footer-links">
+        <ul class="footer-links__list">
+          <li class="footer-links__item"><a class="footer-links__link" href="about.html">About</a></li>
+          <li class="footer-links__item"><a class="footer-links__link" href="newsroom.html">Newsroom</a></li>
+          <li class="footer-links__item"><a class="footer-links__link" href="careers.html">Careers</a></li>
+          <li class="footer-links__item"><a class="footer-links__link" href="contact.html">Contact Us</a></li>
+        </ul>
+      </section>
+      <a class="footer-nav__home-link" href="index.html"><img class="footer-nav__ufc-logo" src="./images/UFC_GYM_India_footer.png" alt="Ufc logo footer" /></a>      <section class="footer-legal">
+        <p class="footer-legal__copy">
+          &copy; UFC GYM&reg;. All Rights Reserved.
+        </p>
+
+        <ul class="footer-legal__links">
+          <li class="footer-legal__item"><a class="footer-legal__link" href="terms.html">Terms of Service</a></li>
+          <li class="footer-legal__item"><a class="footer-legal__link" href="privacy.html">Privacy Policy</a></li>
+        </ul>
+
+        <p class="footer-legal__disclaimer" id="disclaimer">
+          *All claims regarding results you may achieve are dependent on many factors and your results may vary
+        </p>
+      </section>
+    </div>
+  </nav>
+</footer>
+
+    <div data-media-query="true"></div>
+    <script type="text/javascript" charset="utf-8">
+      window.fb_app_id = "1058962990810268";
+      window.site_url = "index.html";
+      window.UFCGym = {};
+      window.UFCGym.locations = [];
+    </script>
+    <script src="./d18e80b7izstoq.cloudfront.net/assets/application-8e89dfb32f31f5a71beae70b180d3d8c.js"></script>
+    
+    <script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0020/4315.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+
+  <script type="text/javascript">
+  
+ function staticpage()
+ {
+    window.location.href="./comingsoon.html";
+ }
+
+ function staticpagekeyup(e)
+ {
+  if (e.keyCode == 13) {
+      window.location.href="./comingsoon.html";
+  }
+ }
+
+</script>
+
+  </body>
+
+<!-- Mirrored from ufcgym.com/locations?source=memberships by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Jan 2018 05:22:57 GMT -->
+</html>

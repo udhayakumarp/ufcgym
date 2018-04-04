@@ -1,0 +1,1137 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html class="no-js" lang="en">
+
+<!-- Mirrored from ufcgymfranchise.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Feb 2018 06:33:38 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <meta charset="utf-8"/>
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"925a5a5ce7","applicationID":"11706301","transactionName":"Jg1YQBAJDlkEFhpVQQQMVVwLFQcaCApRVks=","queueTime":1,"applicationTime":27,"agent":""}</script>
+  <script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(){}function o(e,t,n){return function(){return i(e,[f.now()].concat(u(arguments)),t?null:this,n),t?void 0:this}}var i=e("handle"),a=e(2),u=e(3),c=e("ee").get("tracer"),f=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,t){s[t]=o(d+t,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),t.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,t){var n={},r=this,o="function"==typeof t;return i(l+"tracer",[f.now(),e,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return t.apply(this,arguments)}catch(e){throw c.emit("fn-err",[arguments,this,e],n),e}finally{c.emit("fn-end",[f.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,t){m[t]=o(l+t)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,f.now()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(o<0?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],4:[function(e,t,n){t.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?c(e,u,i):i()}function n(n,r,o,i){if(!d.aborted||i){e&&e(n,r,o);for(var a=t(o),u=m(n),c=u.length,f=0;f<c;f++)u[f].apply(a,r);var p=s[y[n]];return p&&p.push([b,n,r,a]),a}}function l(e,t){v[e]=m(e).concat(t)}function m(e){return v[e]||[]}function w(e){return p[e]=p[e]||o(n)}function g(e,t){f(e,function(e,n){t=t||"feature",y[n]=t,t in s||(s[t]=[])})}var v={},y={},b={on:l,emit:n,get:w,listeners:m,context:t,buffer:g,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",c=e("gos"),f=e(2),s={},p={},d=t.exports=o();d.backlog=s},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!x++){var e=h.info=NREUM.info,t=d.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&t))return s.abort();f(y,function(t,n){e[t]||(e[t]=n)}),c("mark",["onload",a()+h.offset],null,"api");var n=d.createElement("script");n.src="https://"+e.agent,t.parentNode.insertBefore(n,t)}}function o(){"complete"===d.readyState&&i()}function i(){c("mark",["domContent",a()+h.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-h.offset}var u=(new Date).getTime(),c=e("handle"),f=e(2),s=e("ee"),p=window,d=p.document,l="addEventListener",m="attachEvent",w=p.XMLHttpRequest,g=w&&w.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:w,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},b=w&&g&&g[l]&&!/CriOS/.test(navigator.userAgent),h=t.exports={offset:u,now:a,origin:v,features:{},xhrWrappable:b};e(1),d[l]?(d[l]("DOMContentLoaded",i,!1),p[l]("load",r,!1)):(d[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",u],null,"api");var x=0,E=e(4)},{}]},{},["loader"]);</script>
+  <title>Own a UFC GYM</title>
+  <meta name='description' content="Become part of the biggest opportunity in fitness and fastest growing sport in a word by owning a UFC GYM.">
+  <meta content="Own a UFC GYM" name="keywords"/>
+  <!-- OG Metadata -->
+  <meta content="1058962990810268" property="og:app_id">
+  <meta content="Own a UFC GYM" property="og:title"/>
+  <meta content="Become part of the biggest opportunity in fitness and fastest growing sport in a word by owning a UFC GYM." property="og:description"/>
+  <meta content="https://d18e80b7izstoq.cloudfront.net/assets/social_share/UFC_Social_Facebook-0c8bc63fa53a634862a4ecc343a50b22.png" property="og:image"/>
+
+  <!-- Twitter Metadata -->
+  <meta content="Own a UFC GYM" name="twitter:title"/>
+  <meta content="Become part of the biggest opportunity in fitness and fastest growing sport in a word by owning a UFC GYM." name="twitter:description"/>
+  <meta content="@ufcgym" name="twitter:site"/>
+  <meta content="@ufcgym" name="twitter:creator"/>
+  <meta content="https://d18e80b7izstoq.cloudfront.net/assets/social_share/UFC_Social_Twitter-b9a4e67163bd8da7ec5ee84b8f2c8c2b.png" name="twitter:image"/>
+  <meta content="summary_large_image" name="twitter:card">
+
+
+  <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport"/>
+  <script src="../use.typekit.net/uhx2flb.js"></script>
+  <script>try{Typekit.load();}catch(e){}</script>
+  <link rel="stylesheet" media="screen" href="./d18e80b7izstoq.cloudfront.net/assets/franchise-b8dc9eda5af82c161f76be3a230a1756.css" />
+  <meta name="csrf-param" content="authenticity_token" />
+  <meta name="csrf-token" content="G4pxTCybelSur5Y5Dv/sxk5M1zpvc07OycFkQZpLhg4+xjxkEj5nHjuPvbe6+z1NiQxvBtCDg+NbzlfdDoACqg==" />
+
+
+  <style type="text/css">
+  
+  div#franchise_work_out_radio .form-layout__input-group, div#franchise_own_a_property .form-layout__input-group {
+    width: 50%;
+    display: inline-block;
+    margin-top: 5px;
+  }
+
+  div#franchise_own_a_property .checkbox-input+label:before, div#franchise_work_out_radio .checkbox-input+label:before {
+    border-radius: 50% !important;
+  }
+
+  div#own_a_property_area {
+    opacity: .5;
+  }
+
+  div#own_a_property_area input
+  {
+    cursor: not-allowed;
+  }
+
+  .error input {
+    border: 1px solid red;
+  }
+
+  div.error label {
+    color: red;
+}
+
+#custom_select::after{
+  content: '' !important;
+}
+
+.custom_form-layout__column {
+    width: 100% !important;
+    max-width: 900px !important;
+}
+
+.custom_form-layout__column > div {
+    width: 47% !important;
+    float: left;
+    margin: 0px !important;
+    margin-top: 15px !important;
+}
+
+.custom_form-layout__column > div:nth-child(even) {
+    margin-left: 2% !important;
+}
+
+div#franchise_own_a_property, div#own_a_property_area {
+    height: 100px !important;
+}
+
+@media screen and (max-width: 767px) {
+  .custom_form-layout__column > div {
+    width: 100% !important;
+  }
+
+  .custom_form-layout__column > div:nth-child(even) {
+    margin-left: 0px !important;
+  }
+
+  #new_franchise_lead > div:nth-child(3) > div > div:nth-child(12) {
+    margin-top: -7px !important;
+  }
+
+  div#franchise_own_a_property, div#own_a_property_area {
+    height: auto !important;
+  }
+
+  div#own_a_property_area {
+    margin-top: 0px !important;
+}
+
+}
+
+</style>
+
+</head>
+<body class="franchise" data-document-body="true">
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="http://www.googletagmanager.com/ns.html?id=GTM-KFNXGG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= '../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-KFNXGG');</script>
+<!-- End Google Tag Manager -->
+
+    <!--[if lte IE 9 ]>
+      <script>
+        window.location.replace("/upgrade");
+      </script>
+    <![endif]-->
+
+    <header class="global-header">
+      <nav class="main-nav" data-menu-nav="true">
+        <h3 class="main-nav__title">MENU<button class="main-nav__close" data-menu-close="true">Close <i class="icon-close"></i></button></h3>
+        <div class="main-nav__main-menu main-menu franchise-main-menu" data-main-menu="true">
+          <ul class="main-menu__list">
+
+            <li class="main-menu__menu-item ">
+              <a class="main-menu__menu-link" data-ga-category="Nav" data-ga-action="InstraSite" data-ga-label="Our Options" data-ga-delay="true" href="options.html">
+                <span>Our Options</span>
+              </a>    </li>
+
+              <li class="main-menu__menu-item">
+                <a class="main-menu__menu-link" data-ga-category="Nav" data-ga-action="InstraSite" data-ga-label="Blog" data-ga-delay="true" href="../blog.ufcgymfranchise/">
+                  <span>Blog</span>
+                </a>    </li>
+
+                <li class="main-menu__menu-item">
+                  <a class="main-menu__menu-link" data-ga-category="Nav" data-ga-action="InstraSite" data-ga-label="FAQ" data-ga-delay="true" href="faq.html">
+                    <span>FAQ</span>
+                  </a>    </li>
+
+                  <li class="main-menu__menu-item main-menu__menu-item--featured " data-main-menu-featured="true">
+                    <a class="main-menu__menu-link main-menu__menu-link--featured" data-ga-category="Nav" data-ga-action="InstraSite" data-ga-label="Get Started" data-ga-delay="true" href="index.html#get-started"><span>Get Started</span></a>
+                  </li>
+                </ul>
+                <div class="main-menu__active-bar" data-main-menu-active-bar="true"></div>
+              </div>
+
+              <ul class="main-nav__super-menu super-menu">
+                <li class="super-menu__menu-item"><a class="super-menu__menu-link" target="_blank" data-ga-category="Header" data-ga-action="InstraSite" data-ga-label="UFCGYM.com" href="http://139.59.12.164/ufcGym/ufcgym.com/index.html">UFCGYM.in</a></li>
+              </ul>
+
+            </nav>
+
+
+            <nav class="super-nav" data-super-nav="true" data-populated="true">
+              <div class="my-gym mobile-only">
+                <a class="my-gym__find my-gym__find--silver" 
+                data-ga-category="Header" 
+                data-ga-action="InstraSite" 
+                data-ga-label="UFCGYM.com"
+                data-ga-delay="true" 
+                href="../index.html">
+                UFCGYMIndia.in
+              </a>    
+            </div>
+          </nav>
+
+          <div class="menu-bar">
+            <a class="menu-bar__home-link" data-ga-category="Nav" data-ga-action="InstraSite" data-ga-label="UFC GYM" data-ga-delay="true" href="index.html"><img class="menu-bar__ufc-logo" src="./d18e80b7izstoq.cloudfront.net/assets/ufc-logo-franchise-3ed667694e510cfc4200b11828443366.png" alt="Ufc logo franchise" /></a>
+            <button class="menu-bar__menu-toggle" data-menu-open><i class="icon-menu"></i></button>
+          </div>
+
+          <div class="menu-overlay" data-menu-overlay="true"></div>
+        </header>
+
+        <div class="main-wrapper" data-main-wrapper="true">
+          <section class="hero-module hero-module--large franchise-hero-module">
+            <div class="hero-module__content-wrapper" data-content-wrapper="true">
+              <div class="hero-module__centering-wrapper" data-centering-wrapper="true">
+                <h1 class="hero-module__title hero-module__title--large franchise-hero-module__title franchise-hero-module__title--large">Capture the <span class="hero-module__title-highlight">Opportunity</span></h1>
+                <p class="hero-module__copy hero-module__copy--large franchise-hero-module__copy">
+                  Join the $26 billion fitness industry and become a part of the UFC GYM franchise community
+                </p>
+                <a class="button hero-module__cta" data-modal-video="youtube" target="_blank" href="https://youtu.be/4A75qdaFzts"><span class="button__content">        View Video <i class="icon-arrow-right"></i>
+                </span></a>      <a class="button hero-module__cta" href="#get-started"><span class="button__content">        Get Started <i class="icon-arrow-right"></i>
+                </span></a>    </div>
+              </div>
+              <div class="hero-module__background hero-module__background--mobile" style="background-image: url('./d18e80b7izstoq.cloudfront.net/assets/franchise/hero-overlay-treatment-8cf1d30e3b60bec68860c805bfc6ded6.jpg')"></div>
+              <div class="hero-module__background hero-module__background--tablet" style="background-image: url('./d18e80b7izstoq.cloudfront.net/assets/franchise/hero-overlay-treatment-8cf1d30e3b60bec68860c805bfc6ded6.jpg')"></div>
+              <div class="hero-module__background hero-module__background--desktop" style="background-image: url('./d18e80b7izstoq.cloudfront.net/assets/franchise/hero-overlay-treatment-8cf1d30e3b60bec68860c805bfc6ded6.jpg')"></div>
+              <button class="hero-module__scroll" data-hero-scroll="true"><i class="icon-arrow-down"></i> SCROLL</button>
+              <div class="hero-module__background hero-module__background--video" data-hero-video="true" data-hero-video-urls="https://d3h2xv1tt1z2ui.cloudfront.net/assets/hero/FFS-Website-Loop-NOTALKING-NoEndCard2.mp4,https://d3h2xv1tt1z2ui.cloudfront.net/assets/hero/FFS-Website-Loop-NOTALKING-NoEndCard2.oggtheora.ogv,https://d3h2xv1tt1z2ui.cloudfront.net/assets/hero/FFS-Website-Loop-NOTALKING-NoEndCard2.webmhd.webm" style="background-image: url('./d3h2xv1tt1z2ui.cloudfront.net/assets/hero/FFS-Website-Loop-NOTALKING-NoEndCard2-StartFrame.jpg');"></div>
+            </section>
+
+            <section class="franchise-cta">
+              <div class="franchise-cta__content-wrapper">
+                <p class="franchise-cta__copy">Interested in owning a UFC GYM?</p>
+                <a class="franchise-cta__copy franchise-cta__featured" href="#get-started">
+                  Get Started
+                </a>  </div>
+              </section>
+
+              <section class="franchise-info">
+                <div class="franchise-info__description-block">
+                  <h3 class="franchise-info__description-block-title">WHY <span>UFC GYM?</span></h3>
+                </div>
+                <div class="slick-carousel-arrow slide" id="carousel-why-ufc" data-ga-info="Why UFC GYM Carousel">
+                  <div class="franchise-info__slide franchise-info__slide--first">
+                    <div class="franchise-info__content-wrapper franchise-info__content-wrapper--why-ufc">
+                      <div class="franchise-info__frame">
+                        <div class="franchise-info__frame-content">
+                          <div class="franchise-info__frame-center">
+                            <h2 class="franchise-info__title"><span class="franchise-info__title--highlight-black">UFC GYM is for Everyone</span></h2>
+                            <p class="franchise-info__copy franchise-info__copy--black">
+                              UFC GYM is much more than just the Octagon™—it’s an environment where everyone can achieve. We offer a full-range of group conditioning and technique-focused classes, functional training, personal training, traditional martial arts coaching, plus fitness, youth and family classes, so everyone can find their fit.
+                            </p>
+                            <div class="franchise-info__franchise-block-wrapper">
+                              <div class="franchise-block franchise-info__franchise-block">
+                                <img src="./d18e80b7izstoq.cloudfront.net/assets/franchise/franchise-slider-1-icon-1-38d4c0260a4183f0d1f31dbf1d3a4a5c.png" alt="Franchise slider 1 icon 1" />
+                              </div>
+                              <div class="franchise-block franchise-info__franchise-block">
+                                <img src="./d18e80b7izstoq.cloudfront.net/assets/franchise/franchise-slider-1-icon-2-375bca5bc9258a8fb56d366d92d150c4.png" alt="Franchise slider 1 icon 2" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="franchise-info__spacer"></div>
+                    </div>
+                  </div>
+
+                  <div class="franchise-info__slide franchise-info__slide--second">
+                    <div class="franchise-info__content-wrapper franchise-info__content-wrapper--why-ufc">
+                      <div class="franchise-info__frame">
+                        <div class="franchise-info__frame-content">
+                          <div class="franchise-info__frame-center">
+                            <h2 class="franchise-info__title"><span class="franchise-info__title--highlight">World-Recognized Brand</span></h2>
+                            <p class="franchise-info__copy">
+                              UFC is the fastest growing sport in the world, reaching over one billion households across 152 countries. This level of brand awareness and association with the UFC brand provides an exceptional growth opportunity for UFC GYM franchises.
+                            </p>
+                            <div class="franchise-info__franchise-block-wrapper">
+                              <div class="franchise-block franchise-info__franchise-block">
+                                <img src="./d18e80b7izstoq.cloudfront.net/assets/franchise/franchise-slider-2-icon-1-b7a149276f29d8aed57e15fbc676f958.png" alt="Franchise slider 2 icon 1" />
+                              </div>
+                              <div class="franchise-block franchise-info__franchise-block">
+                                <img src="./d18e80b7izstoq.cloudfront.net/assets/franchise/franchise-slider-2-icon-2-86be0410196d6f80a2de5f1c5c523580.png" alt="Franchise slider 2 icon 2" />
+                              </div>
+                              <div class="franchise-block franchise-info__franchise-block">
+                                <img src="./d18e80b7izstoq.cloudfront.net/assets/franchise/franchise-slider-2-icon-3-66babb3f0d7c3d8f4257e007290d73e4.png" alt="Franchise slider 2 icon 3" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="franchise-info__spacer"></div>
+                    </div>
+                  </div>
+
+                  <div class="franchise-info__slide franchise-info__slide--third">
+                    <div class="franchise-info__content-wrapper franchise-info__content-wrapper--why-ufc">
+                      <div class="franchise-info__frame">
+                        <div class="franchise-info__frame-content">
+                          <div class="franchise-info__frame-center">
+                            <h2 class="franchise-info__title"><span class="franchise-info__title--highlight">Our Advantage</span></h2>
+                            <p class="franchise-info__copy">
+                              We bring the fitness undercurrent from UFC to life. UFC is based on physical activity, discipline and dedication and we allow consumers to participate in this lifestyle though classes and programming designed to achieve their full potential in a supportive and motivating environment.
+                            </p>
+                            <div class="franchise-info__franchise-block-wrapper">
+                              <div class="franchise-block franchise-info__franchise-block">
+                                <img src="./d18e80b7izstoq.cloudfront.net/assets/franchise/franchise-slider-3-conditioning-152e6df24c11c91fefe8afb5c3030a51.png" alt="Franchise slider 3 conditioning" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="franchise-info__spacer"></div>
+                    </div>
+                  </div>
+
+                  <div class="franchise-info__slide franchise-info__slide--fourth">
+                    <div class="franchise-info__content-wrapper franchise-info__content-wrapper--why-ufc">
+                      <div class="franchise-info__frame">
+                        <div class="franchise-info__frame-content">
+                          <div class="franchise-info__frame-center">
+                            <h2 class="franchise-info__title"><span class="franchise-info__title--highlight">Perfect Model</span></h2>
+                            <p class="franchise-info__copy">Few fitness enterprises appeal to virtually all ages and skill levels, with revenue diversity from memberships, retail, and personal training. Floorplans have been optimized to apply to a variety of property sizes while maintaining a consistent experience.</p>
+                            <div class="franchise-info__franchise-block-wrapper">
+                              <div class="franchise-block franchise-info__franchise-block">
+                                <img src="./d18e80b7izstoq.cloudfront.net/assets/franchise/franchise-slider-4-icon-1-4aff6012a034d5790aa7d018b9200dfb.png" alt="Franchise slider 4 icon 1" />
+                              </div>
+                              <div class="franchise-block franchise-info__franchise-block">
+                                <img src="./d18e80b7izstoq.cloudfront.net/assets/franchise/franchise-slider-4-icon-2-dfd0bfc0c5f0c011097105e2c751704a.png" alt="Franchise slider 4 icon 2" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="franchise-info__spacer"></div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+<!--               <section class="franchise-opportunities tile-grid">
+                <div class="franchise-opportunities__content-wrapper">
+                  <h3 class="franchise-opportunities__title">LARGE AND GROWING INDUSTRY</h3>
+                  <p class="franchise-opportunities__copy">
+                    UFC GYM is a part of the rapidly expanding health and fitness sector, where growth potential is massive due to persistent positive industry trends.
+                  </p>
+
+                  <ul class="franchise-opportunities__list tile-grid__list">
+
+                    <li class="franchise-opportunities__item tile-grid__item">
+                      <div class="franchise-block franchise-opportunities__block franchise-opportunities__block--special">
+                        <div class="franchise-block__content-wrapper">
+                          <div class="franchise-block__content">
+                            <h4 class="franchise-block__title">
+                              <img class="franchise-opportunities__icon" src="http://d18e80b7izstoq.cloudfront.net/assets/franchise/icon-chart-up-6b81f1534aa45aa0ae1f0bc20c0d2045.svg" alt="Icon chart up" />
+                            </h4>
+                            <p class="franchise-block__copy franchise-opportunities__block-copy">The US fitness industry is exploding and reached all-time highs in 2016.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="franchise-opportunities__item tile-grid__item">
+
+                      <div class="franchise-block franchise-block__half franchise-opportunities__block">
+                        <div class="franchise-block__content-wrapper">
+                          <div class="franchise-block__content franchise-opportunities__block-content-wrapper">
+                            <h4 class="franchise-block__title franchise-opportunities__block-title"><i class="icon-activity-group-fitness-ufc-fit"></i> 66M</h4>
+                            <p class="franchise-block__copy franchise-opportunities__block-copy">Health Club Consumers</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="franchise-block franchise-block__half franchise-opportunities__block">
+                        <div class="franchise-block__content-wrapper">
+                          <div class="franchise-block__content franchise-opportunities__block-content-wrapper">
+                            <h4 class="franchise-block__title franchise-opportunities__block-title"><img class="franchise-opportunities__icon franchise-opportunities__icon--small" src="./d18e80b7izstoq.cloudfront.net/assets/franchise/icon-global-64a161315ab781401b066f143374afc4.png" alt="Icon global" /> $84B</h4>
+                            <p class="franchise-block__copy franchise-opportunities__block-copy">Fitness Industry Revenue</p>
+                          </div>
+                        </div>
+                      </div>
+
+                    </li>
+
+                    <li class="franchise-opportunities__item tile-grid__item">
+                      <div class="franchise-block franchise-block__half franchise-opportunities__block">
+                        <div class="franchise-block__content-wrapper">
+                          <div class="franchise-block__content">
+                            <h4 class="franchise-block__title franchise-opportunities__block-title"><i class="icon-activity-group-fitness-body-blast"></i> 5B+</h4>
+                            <p class="franchise-block__copy franchise-opportunities__block-copy">Health Club Visits</p>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="franchise-block franchise-block__half franchise-opportunities__block">
+                        <div class="franchise-block__content-wrapper">
+                          <div class="franchise-block__content franchise-block__content--tall">
+                            <h4 class="franchise-block__title franchise-opportunities__block-title"><i class="icon-activity-group-fitness-yoga-training"></i> 42%</h4>
+                            <p class="franchise-block__copy franchise-opportunities__block-copy">Club members went to a boutique fitness club: the industry’s fastest growing segment.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <a class="button franchise-opportunities__button" href="options.html"><span class="button__content">      UFC GYM Options&nbsp;<i class="icon-arrow-right"></i>
+                  </span></a>  </div>
+                </section> -->
+
+                <section class="franchise-layout">
+                  <div class="franchise-layout__content-wrapper">
+                    <div class="franchise-layout__row">
+                      <h3 class="franchise-layout__title">Designed for Results</h3>
+                    </div>
+                    <div id="franchise-layout__tour" class="franchise-layout__tour">
+                      <img class="franchise-layout__tour-map" src="./d18e80b7izstoq.cloudfront.net/assets/franchise/ufc-gym-layout-updated-db671aa20074d7f8a0dd27dc40f44df1.jpg" alt="Ufc gym layout updated" />
+                      <div class="franchise-layout__tour-legend">
+                        <h4 class="franchise-layout__tour-title">UFC GYM Layout</h4>
+                        <ul class="franchise-layout__tour-legend-list">
+                          <li>
+                            <p class="franchise-layout__tour-copy">Check-In Lounge / Retail</p>
+                          </li>
+                          <li>
+                            <p class="franchise-layout__tour-copy">Turf Training Area</p>
+                          </li>
+                          <li>
+                            <p class="franchise-layout__tour-copy">Bag Rack</p>
+                          </li>
+                           <li>
+                            <p class="franchise-layout__tour-copy">Strength Training</p>
+                          </li>
+                          <li>
+                            <p class="franchise-layout__tour-copy">Cardiovascular Training</p>
+                          </li>
+                          <li>
+                            <p class="franchise-layout__tour-copy">Group Exercises</p>
+                          </li>
+                          <li>
+                            <p class="franchise-layout__tour-copy">Spinning</p>
+                          </li>
+                          <li>
+                            <p class="franchise-layout__tour-copy">Restroom/Changing Area</p>
+                          </li>
+                        </ul>
+                        <p class="franchise-layout__tour-copy franchise-layout__tour-copy--medium">Starting at 8,000 square feet to 12,000+</p>
+                      </div>
+                    </div>
+                  </div>
+                  <hr/>
+                  <div class="franchise-layout__content-wrapper">
+                    <div id="franchise-layout__flythru" class="franchise-layout__flythru">
+                      <div class="franchise-layout__flythru-video-wrapper">
+                        <div id="flythru"></div>
+                        <!-- TODO new video -->
+                      </div>
+                      <div class="franchise-layout__tour-legend">
+                        <h4 class="franchise-layout__tour-title">UFC GYM Energy</h4>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="franchise-process">
+                  <div class="slick-carousel-arrow fade"  data-ga-info="5 Steps Carousel">
+
+                    <div class="franchise-process__slide">
+                      <div class="franchise-process__content-wrapper">
+                        <div class="franchise-process__frame">
+                          <div class="franchise-process__frame-content">
+                            <div class="franchise-process__frame-center">
+                              <h3 class="franchise-process__title franchise-process__title--intro">5 Steps</h3>
+                              <p class="franchise-process__copy franchise-process__copy--intro">To Becoming a UFC GYM Franchise Partner</p>
+                            </div>
+                          </div>
+                        </div>
+                        <ul class="franchise-process__process-steps">
+                          <li data-process-step="1" class="franchise-process__process-step active">
+                            <h5 class="franchise-process__process-step-title">Step 1</h5>
+                            <p class="franchise-process__process-step-copy">Start The Process</p>
+                          </li>
+                          <li data-process-step="2" class="franchise-process__process-step">
+                            <h5 class="franchise-process__process-step-title">Step 2</h5>
+                            <p class="franchise-process__process-step-copy">Application &amp; Disclosure</p>
+                          </li>
+                          <li data-process-step="3" class="franchise-process__process-step">
+                            <h5 class="franchise-process__process-step-title">Step 3</h5>
+                            <p class="franchise-process__process-step-copy">Experience UFC GYM</p>
+                          </li>
+                          <li data-process-step="4" class="franchise-process__process-step">
+                            <h5 class="franchise-process__process-step-title">Step 4</h5>
+                            <p class="franchise-process__process-step-copy">Approval</p>
+                          </li>
+                          <li data-process-step="5" class="franchise-process__process-step">
+                            <h5 class="franchise-process__process-step-title">Step 5</h5>
+                            <p class="franchise-process__process-step-copy">Opening</p>
+                          </li>
+                        </ul>
+                        <div class="franchise-process__spacer"></div>
+                      </div>
+                    </div>
+
+                    <div class="franchise-process__slide">
+                      <div class="franchise-process__content-wrapper">
+                        <div class="franchise-process__frame">
+                          <div class="franchise-process__frame-content">
+                            <div class="franchise-process__frame-center">
+                              <img class="franchise-process__icon" src="./d18e80b7izstoq.cloudfront.net/assets/franchise/icon_1-620081f531d75b7e4956f83372c3705f.png" alt="Icon 1" />
+                              <h3 class="franchise-process__title">Request Information</h3>
+                              <hr class="franchise-process__line">
+                              <p class="franchise-process__copy">Complete the
+                                <a href="#get-started">contact form</a> (below) and a UFC GYM representative will contact you to discuss the opportunity and requirements. </p>
+                              </div>
+                            </div>
+                          </div>
+                          <ul class="franchise-process__process-steps">
+                            <li data-process-step="1" class="franchise-process__process-step active">
+                              <h5 class="franchise-process__process-step-title">Step 1</h5>
+                              <p class="franchise-process__process-step-copy">Start The Process</p>
+                            </li>
+                            <li data-process-step="2" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 2</h5>
+                              <p class="franchise-process__process-step-copy">Application &amp; Disclosure</p>
+                            </li>
+                            <li data-process-step="3" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 3</h5>
+                              <p class="franchise-process__process-step-copy">Experience UFC GYM</p>
+                            </li>
+                            <li data-process-step="4" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 4</h5>
+                              <p class="franchise-process__process-step-copy">Approval</p>
+                            </li>
+                            <li data-process-step="5" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 5</h5>
+                              <p class="franchise-process__process-step-copy">Opening</p>
+                            </li>
+                          </ul>
+                          <div class="franchise-process__spacer"></div>
+                        </div>
+                      </div>
+
+                      <div class="franchise-process__slide">
+                        <div class="franchise-process__content-wrapper">
+                          <div class="franchise-process__frame">
+                            <div class="franchise-process__frame-content franchise-process__frame-content--white">
+                              <div class="franchise-process__frame-center">
+                                <img class="franchise-process__icon" src="./d18e80b7izstoq.cloudfront.net/assets/franchise/icon_2-4b33ffc00d0df6f88731a21e07835b1e.png" alt="Icon 2" />
+                                <h3 class="franchise-process__title">Application &amp; Disclosure</h3>
+                                <hr class="franchise-process__line franchise-process__line--white">
+                                <p class="franchise-process__copy">Complete a franchise application and we will provide you with the Franchise Disclosure Document (FDD).</p>
+                              </div>
+                            </div>
+                          </div>
+                          <ul class="franchise-process__process-steps">
+                            <li data-process-step="1" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 1</h5>
+                              <p class="franchise-process__process-step-copy">Start The Process</p>
+                            </li>
+                            <li data-process-step="2" class="franchise-process__process-step active">
+                              <h5 class="franchise-process__process-step-title">Step 2</h5>
+                              <p class="franchise-process__process-step-copy">Application &amp; Disclosure</p>
+                            </li>
+                            <li data-process-step="3" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 3</h5>
+                              <p class="franchise-process__process-step-copy">Experience UFC GYM</p>
+                            </li>
+                            <li data-process-step="4" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 4</h5>
+                              <p class="franchise-process__process-step-copy">Approval</p>
+                            </li>
+                            <li data-process-step="5" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 5</h5>
+                              <p class="franchise-process__process-step-copy">Opening</p>
+                            </li>
+                          </ul>
+                          <div class="franchise-process__spacer"></div>
+                        </div>
+                      </div>
+
+                      <div class="franchise-process__slide">
+                        <div class="franchise-process__content-wrapper">
+                          <div class="franchise-process__frame">
+                            <div class="franchise-process__frame-content">
+                              <div class="franchise-process__frame-center">
+                                <img class="franchise-process__icon" src="./d18e80b7izstoq.cloudfront.net/assets/franchise/icon_3-991fe12d97a9eb686d9954814467ee16.png" alt="Icon 3" />
+                                <h3 class="franchise-process__title">Experience UFC GYM</h3>
+                                <hr class="franchise-process__line">
+                                <p class="franchise-process__copy">Meet key team members from UFC GYM, and experience the brand and its offerings first-hand with an in-person meeting.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <ul class="franchise-process__process-steps">
+                            <li data-process-step="1" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 1</h5>
+                              <p class="franchise-process__process-step-copy">Start The Process</p>
+                            </li>
+                            <li data-process-step="2" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 2</h5>
+                              <p class="franchise-process__process-step-copy">Application &amp; Disclosure</p>
+                            </li>
+                            <li data-process-step="3" class="franchise-process__process-step active">
+                              <h5 class="franchise-process__process-step-title">Step 3</h5>
+                              <p class="franchise-process__process-step-copy">Experience UFC GYM</p>
+                            </li>
+                            <li data-process-step="4" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 4</h5>
+                              <p class="franchise-process__process-step-copy">Approval</p>
+                            </li>
+                            <li data-process-step="5" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 5</h5>
+                              <p class="franchise-process__process-step-copy">Opening</p>
+                            </li>
+                          </ul>
+                          <div class="franchise-process__spacer"></div>
+                        </div>
+                      </div>
+
+                      <div class="franchise-process__slide">
+                        <div class="franchise-process__content-wrapper">
+                          <div class="franchise-process__frame">
+                            <div class="franchise-process__frame-content franchise-process__frame-content--white">
+                              <div class="franchise-process__frame-center">
+                                <img class="franchise-process__icon" src="./d18e80b7izstoq.cloudfront.net/assets/franchise/icon_4-f112ba1645ed1eff6503bf44e1fdb6de.png" alt="Icon 4" />
+                                <h3 class="franchise-process__title">Approval</h3>
+                                <hr class="franchise-process__line franchise-process__line--white">
+                                <p class="franchise-process__copy">After learning about the opportunity and meeting all qualifications we will create and sign an agreement for your franchise territory.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <ul class="franchise-process__process-steps">
+                            <li data-process-step="1" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 1</h5>
+                              <p class="franchise-process__process-step-copy">Start The Process</p>
+                            </li>
+                            <li data-process-step="2" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 2</h5>
+                              <p class="franchise-process__process-step-copy">Application &amp; Disclosure</p>
+                            </li>
+                            <li data-process-step="3" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 3</h5>
+                              <p class="franchise-process__process-step-copy">Experience UFC GYM</p>
+                            </li>
+                            <li data-process-step="4" class="franchise-process__process-step active">
+                              <h5 class="franchise-process__process-step-title">Step 4</h5>
+                              <p class="franchise-process__process-step-copy">Approval</p>
+                            </li>
+                            <li data-process-step="5" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 5</h5>
+                              <p class="franchise-process__process-step-copy">Opening</p>
+                            </li>
+                          </ul>
+                          <div class="franchise-process__spacer"></div>
+                        </div>
+                      </div>
+
+                      <div class="franchise-process__slide">
+                        <div class="franchise-process__content-wrapper">
+                          <div class="franchise-process__frame">
+                            <div class="franchise-process__frame-content">
+                              <div class="franchise-process__frame-center">
+                                <img class="franchise-process__icon" src="./d18e80b7izstoq.cloudfront.net/assets/franchise/icon_5-34440957dd63caf2aee13c06058e0e73.png" alt="Icon 5" />
+                                <h3 class="franchise-process__title">Opening</h3>
+                                <hr class="franchise-process__line">
+                                <p class="franchise-process__copy">After you complete your agreement, our team will work with you on site selection, facility planning, marketing, and staff training to get your first club launched.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <ul class="franchise-process__process-steps">
+                            <li data-process-step="1" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 1</h5>
+                              <p class="franchise-process__process-step-copy">Start The Process</p>
+                            </li>
+                            <li data-process-step="2" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 2</h5>
+                              <p class="franchise-process__process-step-copy">Application &amp; Disclosure</p>
+                            </li>
+                            <li data-process-step="3" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 3</h5>
+                              <p class="franchise-process__process-step-copy">Experience UFC GYM</p>
+                            </li>
+                            <li data-process-step="4" class="franchise-process__process-step">
+                              <h5 class="franchise-process__process-step-title">Step 4</h5>
+                              <p class="franchise-process__process-step-copy">Approval</p>
+                            </li>
+                            <li data-process-step="5" class="franchise-process__process-step active">
+                              <h5 class="franchise-process__process-step-title">Step 5</h5>
+                              <p class="franchise-process__process-step-copy">Opening</p>
+                            </li>
+                          </ul>
+                          <div class="franchise-process__spacer"></div>
+                        </div>
+                      </div>
+
+                    </div>
+                  </section>
+
+
+
+                  <!-- <section class="franchise-requirements tile-grid">
+                    <div class="franchise-requirements__content-wrapper">
+                      <h3 class="franchise-requirements__title">BASE FRANCHISE REQUIREMENTS</h3>
+                      <p class="franchise-requirements__copy">The UFC GYM brand requires passionate, committed, enthusiastic franchise partners.</p>
+                      <ul class="tile-grid__list">
+                        <li class="franchise-requirements__item tile-grid__item">
+                          <h3 class="franchise-requirements__subtitle">$100K</h3>
+                          <p class="franchise-requirements__copy franchise-requirements__item-copy">Minimum combined liquid assets of all partners</p>
+                        </li>
+                        <li class="franchise-requirements__item tile-grid__item">
+                          <h3 class="franchise-requirements__subtitle">$300K</h3>
+                          <p class="franchise-requirements__copy franchise-requirements__item-copy">Minimum combined net worth of all partners</p>
+                        </li>
+                        <li class="franchise-requirements__item tile-grid__item">
+                          <h3 class="franchise-requirements__subtitle"><img class="franchise-requirements__icon" src="http://d18e80b7izstoq.cloudfront.net/assets/franchise/icon-heart-c91593d2d27e24dc21c645a2736d307c.svg" alt="Icon heart" /></h3>
+                          <p class="franchise-requirements__copy franchise-requirements__item-copy">A passion for changing lives through fitness</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </section> -->
+
+                  <section id="get-started" class="franchise-lead">
+                    <div class="franchise-lead__content-wrapper">
+                      <h1 class="franchise-lead__title">ARE YOU IN?</h1>
+                      <p class="franchise-lead__copy">Fill out the information below and a representative will contact you regarding your interest in a UFC GYM franchise. Thank you for your submission.</p>
+                      <hr class="franchise-lead__separator" />
+                      <form class="simple_form franchise__form" novalidate="novalidate" id="new_franchise_lead" action="http://139.59.12.164/ufcGym/ufcgymfranchise/ufcgymfranchise.com/index.html" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="6mnmufyriOM7gIgzNIQ/x/+Dv6Ik82Q3iu4AdOV0vJzPJauRwg6Vqa6go72AgO5MOMMHnpsDqRoY4TPocb84OA==" />
+                        <div class="form-layout__row">
+
+                          <div class="form-layout__column custom_form-layout__column">
+                            <div class="form-layout__input-group">
+                              <label class="form-layout__label" for="franchise_lead_first_name">First Name<span class="form-layout__input-required">*</span></label>
+                              <input type="text" class="form-layout__text-input text-input" id="franchise_lead_first_name" name="franchise_lead_first_name" placeholder="Enter First Name..." value=""/>
+                            </div>
+                            <div class="form-layout__input-group">
+                              <label class="form-layout__label" for="franchise_lead_lastname">Last Name<span class="form-layout__input-required">*</span></label>
+                              <input type="text" class="form-layout__text-input text-input" id="franchise_lead_lname" name="franchise_lead_lname" placeholder="Enter Last Name..." value=""/>
+                            </div>
+                            <div class="form-layout__input-group">
+                              <label class="form-layout__label" for="franchise_lead_phone">Contact No<span class="form-layout__input-required">*</span></label>
+                              <input type="tel" class="form-layout__text-input text-input" id="franchise_lead_phone" name="franchise_lead_phone" placeholder="Enter Contact No..." value=""/>
+                            </div>
+
+                            <div class="form-layout__input-group">
+                              <label class="form-layout__label" for="franchise_lead_email">Email ID<span class="form-layout__input-required">*</span></label>
+                              <input type="email" class="form-layout__text-input text-input" id="franchise_lead_email" name="franchise_lead_email" placeholder="Enter Email..." value=""/>
+                            </div>
+
+                            <div class="form-layout__input-group">
+                              <label class="form-layout__label" for="franchise_lead_address">Address<span class="form-layout__input-required">*</span></label>
+                              <input type="text" class="form-layout__text-input text-input" id="franchise_lead_address" name="franchise_lead_address" placeholder="Enter Address..." value=""/>
+                            </div>
+
+                            <div class="form-layout__input-group">
+                              <label class="form-layout__label" for="franchise_lead_pincode">Pin Code<span class="form-layout__input-required">*</span></label>
+                              <input type="text" class="form-layout__text-input text-input" id="franchise_lead_pincode" name="franchise_lead_pincode" placeholder="Enter Pincode..." value=""/>
+                            </div>
+
+
+                             <div class="form-layout__input-group">
+                              <label class="Preferred_location_label">Preferred Location</label>
+                              <label class="form-layout__label" for="franchise_lead_statte">Preferred Location<br>State <span class="form-layout__input-required">*</span></label>
+                                <div class="select-input__wrapper" id="custom_select">
+                                 <!--  <select id="franchise_lead_statte" name="franchise_lead_statte" class="form-layout__select-input select-input " data-select-input="true" onchange='selct_district(this.value)'>
+
+                                  </select> -->
+                                   <input disabled="disabled" type="text" class="form-layout__text-input text-input" id="franchise_lead_statte" name="franchise_lead_statte" placeholder="Enter State..." value=""/>
+                                </div>
+                             
+                            </div>
+
+
+                            <div class="form-layout__inline-fields">
+                              <div class="form-layout__input-group--inline">
+                                 <label class="form-layout__label" for="franchise_lead_country">&nbsp;<br>City<span class="form-layout__input-required">*</span></label>
+                              <div class="select-input__wrapper" id="custom_select">
+                                <!-- <select id="franchise_lead_country" name="franchise_lead_country" class="form-layout__select-input select-input" data-select-input="true">
+                                  <option value="placeholder" disabled selected hidden>Select City</option>
+                                </select> -->
+                                <input disabled="disabled" type="text" class="form-layout__text-input text-input" id="franchise_lead_country" name="franchise_lead_country" placeholder="Enter City..." value=""/>
+                              </div>
+                              </div>
+                              <div class="form-layout__input-group--inline">
+                                <label class="form-layout__label" for="franchise_lead_postal_code">&nbsp;<br>Area<span class="form-layout__input-required">*</span></label>
+                                <input type="text" class="form-layout__text-input text-input" id="franchise_lead_postal_code" name="franchise_lead_postal_code" placeholder="Enter Area..." value=""/>
+                              </div>
+                            </div>
+
+                            <div class="form-layout__input-group">
+                              <label class="form-layout__label" for="franchise_lead_company">Company Name<span class="form-layout__input-required">*</span></label>
+                              <input type="text" class="form-layout__text-input text-input" id="franchise_lead_company" name="franchise_lead_company" placeholder="Enter Company Name..." value=""/>
+                            </div>
+
+                             <div class="form-layout__input-group">
+                              <label class="form-layout__label" for="franchise_lead_company_web">Company Website<span class="form-layout__input-required">*</span></label>
+                              <input type="text" class="form-layout__text-input text-input" id="franchise_lead_company_web" name="franchise_lead_company_web" placeholder="Enter Company Website..." value=""/>
+                            </div>
+
+
+                            <div class="form-layout__input-group">
+                              <label class="form-layout__label" for="franchise_lead_inv_turnover"><b>TURNOVER</b><br>Individual (In INR):<span class="form-layout__input-required">*</span></label>
+                              <input type="text" class="form-layout__text-input text-input" id="franchise_lead_inv_turnover" name="franchise_lead_inv_turnover" placeholder="Enter Individual Turnover (In INR)..." value=""/>
+                            </div>
+
+                            <div class="form-layout__input-group">
+                              <label class="form-layout__label" for="franchise_lead_corp_turnover">&nbsp;<br>Corporate (In INR):<span class="form-layout__input-required">*</span></label>
+                              <input type="text" class="form-layout__text-input text-input" id="franchise_lead_corp_turnover" name="franchise_lead_corp_turnover" placeholder="Enter Corporate Turnover (In INR)..." value=""/>
+                            </div>
+
+                            <div class="form-layout__input-group" id="franchise_own_a_property">
+                              <label class="form-layout__label" for="franchise_lead_email">DO YOU OWN A PRORETY?<span class="form-layout__input-required">*</span></label>
+                              <div class="form-layout__input-group">
+                                <input type="radio" class="form-layout__checkbox-input checkbox-input" id="franchise_own_a_property-yes" name="franchise_own_a_property" value="Yes" />
+                                <label class="form-layout__label form-layout__label--input-inline" for="franchise_own_a_property-yes">
+                                  Yes
+                                </label>
+                              </div>
+                              <div class="form-layout__input-group">
+                                <input type="radio" class="form-layout__checkbox-input checkbox-input" id="franchise_own_a_property-no" name="franchise_own_a_property" value="No" />
+                                <label class="form-layout__label form-layout__label--input-inline" for="franchise_own_a_property-no">
+                                  No
+                                </label>
+                              </div>
+                            </div>
+
+                            <div class="form-layout__input-group" id="own_a_property_area">
+                              <label class="form-layout__label" for="franchise_lead_area_sq_ft">IF YES – AREA IN SQ. FT. CARPET<span class="form-layout__input-required">*</span></label>
+                              <input type="text" class="form-layout__text-input text-input" id="franchise_lead_area_sq_ft" name="franchise_lead_area_sq_ft" placeholder="Enter property area in SQ.Ft..." value="" disabled="disabled" />
+                            </div>
+
+                            <div class="form-layout__input-group">
+                              <label class="form-layout__label" for="franchise_lead_hear_about">HOW DID YOU HEAR ABOUT US ?<span class="form-layout__input-required">*</span></label>
+                              <input type="text" class="form-layout__text-input text-input" id="franchise_lead_hear_about" name="franchise_lead_hear_about" placeholder="Enter How did you hear about us ?"" value=""/>
+                            </div>
+
+                            <div class="form-layout__input-group" id="franchise_work_out_radio">
+                              <label class="form-layout__label" for="franchise_lead_email">DO YOU WORK OUT ?<span class="form-layout__input-required">*</span></label>
+                              <div class="form-layout__input-group">
+                                <input type="radio" class="form-layout__checkbox-input checkbox-input" id="franchise_work_out_radio-yes" name="franchise_work_out_radio" value="Yes" />
+                                <label class="form-layout__label form-layout__label--input-inline" for="franchise_work_out_radio-yes">
+                                  Yes
+                                </label>
+                              </div>
+                              <div class="form-layout__input-group">
+                                <input type="radio" class="form-layout__checkbox-input checkbox-input" id="franchise_work_out_radio-no" name="franchise_work_out_radio" value="No" />
+                                <label class="form-layout__label form-layout__label--input-inline" for="franchise_work_out_radio-no">
+                                  No
+                                </label>
+                              </div>
+                            </div>
+
+                          </div>
+
+                          <!-- <div class="form-layout__column">
+                          
+                          </div> -->
+
+                        </div>
+                        <div class="form-layout__row">
+                          <div class="form-layout__column">
+                            <div class="form-layout__input-group">
+                              <input type="checkbox" class="form-layout__checkbox-input checkbox-input" id="franchise_lead_has_agreed_to_terms_and_conditions" name="franchise_lead[has_agreed_to_terms_and_conditions]" />
+                              <label class="form-layout__label form-layout__label--input-inline" for="franchise_lead_has_agreed_to_terms_and_conditions">
+                                I agree to the <a class="link" target="_blank" href="http://139.59.12.164/ufcGym/ufcgym.com/terms.html">Terms &amp; Conditions</a>
+                              </label>
+                            </div>
+                            <div class="form-layout__input-group" >
+                              <button name="button" type="submit" class="button franchise-lead__submit"><span class="button__content">Submit <i class="icon-arrow-right"></i></span></button>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </section>
+
+                  <section class="franchise-blog tile-grid tile-grid--black">
+                    <div class="franchise-blog__content-wrapper franchise-blog__content-wrapper--inline-scroll tile-grid__content-wrapper tile-grid__content-wrapper--inline-scroll">
+                      <h3 class="franchise-blog__title franchise-blog__title--inline-scroll tile-grid__title tile-grid__title--inline-scroll">BLOG</h3>
+                      <ul class="franchise-blog__list franchise-blog__list--inline-scroll tile-grid__list tile-grid__list--inline-scroll ">
+                        <li class="franchise-blog__item franchise-blog__item--inline-scroll tile-grid__item tile-grid__item--inline-scroll">
+                          <div class="blog-tile" data-clickable-tile="true">
+                            <div class="blog-tile__image" style="background-image:url(./cdn2.hubspot.net/hubfs/2350446/Blog%20Articles/FOX40%20-%20Rocklin.png);background-size:cover;"></div>
+                            <div class="blog-tile__content">
+                              <h4 class="blog-tile__title">FOX40 News Visits UFC GYM Rocklin</h4>
+                              <p class="blog-tile__copy">FOX40 News took a moment to stop by UFC GYM Rocklin. See what they thought and how the the club helps people who want to Train Different!</p>
+                              <p class="blog-tile__date">February 21, 2017</p>
+                            </div>
+
+                            <a class="button blog-tile__link" data-clickable-tile-link="true" href="#"><span class="button__content">
+                              Read Full Story <i class="icon-arrow-right"></i>
+                            </span></a>            </div>
+                          </li>
+                          <li class="franchise-blog__item franchise-blog__item--inline-scroll tile-grid__item tile-grid__item--inline-scroll">
+                            <div class="blog-tile" data-clickable-tile="true">
+                              <div class="blog-tile__image" style="background-image:url(./cdn2.hubspot.net/hubfs/2350446/Blog%20Articles/LaMirada-5.jpg);background-size:cover;"></div>
+                              <div class="blog-tile__content">
+                                <h4 class="blog-tile__title">Featured Article: Red Out Workouts in Support of the American Heart Association</h4>
+                                <p class="blog-tile__copy">UFC GYM is sharing it's support for the American Heart Association by hosting Red Out Workout events across the country.</p>
+                                <p class="blog-tile__date">February  6, 2017</p>
+                              </div>
+
+                              <a class="button blog-tile__link" data-clickable-tile-link="true" href="#"><span class="button__content">
+                                Read Full Story <i class="icon-arrow-right"></i>
+                              </span></a>            </div>
+                            </li>
+                            <li class="franchise-blog__item franchise-blog__item--inline-scroll tile-grid__item tile-grid__item--inline-scroll">
+                              <div class="blog-tile" data-clickable-tile="true">
+                                <div class="blog-tile__image" style="background-image:url(./cdn2.hubspot.net/hubfs/2350446/Bisping-437613-edited.jpg);background-size:cover;"></div>
+                                <div class="blog-tile__content">
+                                  <h4 class="blog-tile__title">Featured Article: Michael Bisping Named 2016 FOX Sports™ Fighter of the Year</h4>
+                                  <p class="blog-tile__copy">Michael Bisping was recently named 2016 Fox Sports™ Fighter of the Year, find out why champions.co thinks he's earned the title!</p>
+                                  <p class="blog-tile__date">January 13, 2017</p>
+                                </div>
+
+                                <a class="button blog-tile__link" data-clickable-tile-link="true" href="#"><span class="button__content">
+                                  Read Full Story <i class="icon-arrow-right"></i>
+                                </span></a>            </div>
+                              </li>
+                            </ul>
+                          </div>
+                        </section>
+
+                        <div id="modal-video" class="franchise-modal">
+                          <button class="franchise-modal__close">Close x</button>
+                          <div class="franchise-modal__video-wrapper">
+                            <div class="franchise-modal__video-inner">
+                              <div id="player" class="franchise-modal__video franchise-modal__video--iframe" ></div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                      </div>
+                      <section class="lead-gen-ribbon" data-lead-gen-ribbon="true">
+                        <a class="lead-gen-ribbon__link" href="http://ufcgym.com/get-a-guest-pass">TRAIN WITH US FOR <em class="lead-gen-ribbon__link--highlight">FREE <i class="icon-arrow-right"></i></em></a>
+                        <button class="lead-gen-ribbon__close-button" data-close="true">
+                          <i class="icon-close"></i>
+                        </button>
+                      </section>
+
+                      <footer class="global-footer" data-global-footer="true">
+                        <nav class="footer-social">
+                          <div class="footer-social__content-wrapper">
+                            <section class="newsletter-signup">
+                              <h3 class="newsletter-signup__title">SIGN UP FOR UPDATES</h3>
+                              <div class="table-wrapper newsletter-signup__table-wrapper">
+                                <div class="table-wrapper__row">
+                                  <form data-sign-up-request-form="true" action="https://ufcgymfranchise.com/api/sign_up_requests" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="wGT7QaCm9XGLijNCAu72jFopFENjo0w76pwD/Kdc9tTlKLZpngPoOx6qGMy26icHnWmsf9xTgRZ4kzBgM5dycA==" />
+                                    <div class="table-wrapper__cell table-wrapper__cell--expanded table-wrapper__cell--align-left">
+                                      <input class="text-input text-input--plain newsletter-signup__text-input" type="email" placeholder="Enter your Email Address" name="sign_up_request[email]" data-sign-up-request-form-email="true" />
+                                    </div>
+                                    <div class="table-wrapper__cell">
+                                      <button name="button" type="submit" class="button button--collapsed newsletter-signup__cta"><span class="button__content">Sign Up</span></button>
+                                    </div>
+                                  </form>            </div>
+                                </div>
+                              </section>
+                              <section class="social-links">
+                                <h3 class="social-links__title">GET CONNECTED</h3>
+                                <ul class="social-links__list">
+                                  <li class="social-links__item"><a class="social-links__link" target="_blank" href="https://www.facebook.com/ufcgymindia/">            <i class="icon-facebook"><span class="sr-only">Facebook</span></i>
+                                  </a></li>
+                                  <li class="social-links__item"><a class="social-links__link" target="_blank" href="https://twitter.com/ufcgymindia">            <i class="icon-twitter"><span class="sr-only">Twitter</span></i>
+                                  </a></li>
+                                  <li class="social-links__item"><a class="social-links__link" target="_blank" href="https://www.youtube.com/channel/UCmHdOj9At3R6p93fG1hf7Rw">            <i class="icon-youtube"><span class="sr-only">Youtube</span></i>
+                                  </a></li>
+                                  <li class="social-links__item"><a class="social-links__link" target="_blank" href="https://www.instagram.com/ufcgymindia/">            <i class="icon-instagram"><span class="sr-only">Instagram</span></i>
+                                  </a></li>
+                                </ul>
+                              </section>
+                              <!-- <img class="franchise-footer__image" src="./d18e80b7izstoq.cloudfront.net/assets/franchise/logo-entrepreneur-franchise-500-d6730236e47aa239de6a6b7f5306836d.png" alt="Logo entrepreneur franchise 500" /> -->
+                            </div>
+                          </nav>
+                          <nav class="footer-nav">
+                            <div class="footer-nav__content-wrapper">
+                              <section class="footer-links">
+                                <ul class="footer-links__list">
+                                  <li class="footer-links__item"><a class="footer-links__link" href="http://139.59.12.164/ufcGym/ufcgym.com/about.html">About</a></li>
+                                  <li class="footer-links__item"><a class="footer-links__link" href="http://139.59.12.164/ufcGym/ufcgym.com/newsroom.html">Newsroom</a></li>
+                                  <li class="footer-links__item"><a class="footer-links__link" href="http://139.59.12.164/ufcGym/ufcgym.com/careers.html">Careers</a></li>
+                                  <li class="footer-links__item"><a class="footer-links__link" href="http://139.59.12.164/ufcGym/ufcgym.com/contact.html">Contact Us</a></li>
+                                </ul>
+                              </section>
+                              <a class="footer-nav__home-link" href="index.html"><img class="footer-nav__ufc-logo" src="./images/UFC_GYM_India_footer.png" alt="Ufc logo footer" /></a>      <section class="footer-legal">
+                                <p class="footer-legal__copy">&copy; UFC GYM&reg;. All Rights Reserved.</p>
+                                <ul class="footer-legal__links">
+                                  <li class="footer-legal__item"><a class="footer-legal__link" href="http://139.59.12.164/ufcGym/ufcgym.com/terms.html">Terms of Service</a></li>
+                                  <li class="footer-legal__item"><a class="footer-legal__link" href="http://139.59.12.164/ufcGym/ufcgym.com/privacy.html">Privacy Policy</a></li>
+                                </ul>
+                              </section>
+                            </div>
+                          </nav>
+                        </footer>
+
+                        <div data-media-query="true"></div>
+                        <script type="text/javascript" charset="utf-8">
+                          window.fb_app_id = "1058962990810268";
+                          window.site_url = "index.html";
+                          window.UFCGym = {};
+                        </script>
+
+                        <!-- Google Analytics --> <script>
+                          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                          })(window,document,'script','../www.google-analytics.com/analytics.js','ga');
+
+                          ga('create', 'UA-61849959-1', 'auto', 'onPageTracker');
+                          ga('onPageTracker.send', 'pageview');
+                        </script> <!-- End Google Analytics -->
+
+                        <script src="./d18e80b7izstoq.cloudfront.net/assets/franchise-1e0dde6b316a8412a7505ea3060901c2.js"></script>
+
+                        <script type="text/javascript">
+                          $(document).ready(function(){
+                            window.player = null;
+
+                            window.onYouTubeIframeAPIReady  = function() {
+                              window.player = new YT.Player('player', {
+                                height: '390',
+                                width: '640',
+                                videoId: '4A75qdaFzts',
+                                playerVars: {
+                                  'modestbranding': 1,
+                                  'rel': 0
+                                },
+                                events: {
+                                  'onReady': onPlayerReady,
+                                  'onStateChange': onPlayerStateChange
+                                }
+                              });
+
+                              window.flythru_player = new YT.Player('flythru', {
+                                height: '315',
+                                width: '560',
+                                videoId: 'Lcp2ZsGkX6Q',
+                                playerVars: {
+                                  'modestbranding': 1,
+                                  'rel': 0,
+                                  'controls': 0,
+                                  'showinfo': 0
+                                }
+                              });
+                            }
+
+                            window.onPlayerReady = function(event) {}
+
+                            var pauseFlag = false;
+                            window.onPlayerStateChange = function(event) {
+                              if (event.data == YT.PlayerState.PLAYING) {
+                                ga('onPageTracker.send', 'event', 'youtube', 'play','4A75qdaFzts:Franchise For Sale');
+                                pauseFlag = true;
+                              }
+
+                              if (event.data == YT.PlayerState.PAUSED && pauseFlag) {
+                                ga('onPageTracker.send', 'event', 'youtube', 'pause','4A75qdaFzts:Franchise For Sale');
+                                pauseFlag = false;
+                              }
+
+                              if (event.data == YT.PlayerState.ENDED) {
+                                ga('onPageTracker.send', 'event', 'youtube', '100%','4A75qdaFzts:Franchise For Sale');
+                              }
+                            }
+
+                            window.stopVideo = function() {
+                              if (window.player) {
+                                window.player.stopVideo();
+                              }
+                            }
+
+                            var tag = document.createElement('script');
+                            tag.src = "http://www.youtube.com/iframe_api";
+                            var firstScriptTag = document.getElementsByTagName('script')[0];
+                            firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+                          })
+                        </script>
+
+                        <script type="text/javascript">
+                          setTimeout(function(){var a=document.createElement("script");
+                            var b=document.getElementsByTagName("script")[0];
+                            a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0020/4315.js?"+Math.floor(new Date().getTime()/3600000);
+                            a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+                          </script>
+
+                          <!-- Start of HubSpot Embed Code -->
+                          <script type="text/javascript" id="hs-script-loader" async defer src="../js.hs-scripts.com/2350446.js"></script>
+                          <!-- End of HubSpot Embed Code -->
+
+                          <!-- Start of LinkedIn Code -->
+                          <script type="text/javascript">
+                            _linkedin_data_partner_id = "29687";
+                          </script>
+                          <script type="text/javascript">
+                            (function(){var s = document.getElementsByTagName("script")[0];
+                              var b = document.createElement("script");
+                              b.type = "text/javascript";b.async = true;
+                              b.src = "../snap.licdn.com/li.lms-analytics/insight.min.js";
+                              s.parentNode.insertBefore(b, s);})();
+                            </script>
+                            <!-- End of LinkedIn Code -->
+
+                            <!-- <script src="./js/jquery.js"></script> -->
+                          <script src="./js/state.js"></script>
+
+                        <script type="text/javascript">
+                          $(document).ready(function(){
+
+                            $('input[name=franchise_own_a_property]').change(function(){
+
+
+                              if($('input#franchise_own_a_property-yes').is(':checked'))
+                              {
+                                $('div#own_a_property_area').css('opacity','1');
+                                $('div#own_a_property_area input').css('cursor','initial');
+                                $('div#own_a_property_area input').removeAttr('disabled');
+                              }
+                              else
+                              {
+                               $('div#own_a_property_area').css('opacity','.5');
+                               $('div#own_a_property_area input').css('cursor','not-allowed');
+                               $('div#own_a_property_area input').attr('disabled','disabled');
+                             }
+
+                           });
+
+                          //   $('form#tp_franchise__form button.franchise-lead__submit').click(function() { 
+                          //     return false; 
+                          //   });
+
+                          })
+                          </script>
+
+                          <script>
+
+    jQuery(function($){
+
+     $('#franchise_lead_pincode').change(function(){
+
+
+  $.ajax({
+        url: "pincode.php",
+          dataType: "json",
+          data: {
+            q: $('#franchise_lead_pincode').val()
+          },
+        success: function(data){
+         console.log(data.address);
+
+            var vl = data.address;      
+            var adrs = vl.split(",");
+
+            $('#franchise_lead_statte').val(adrs[1]);
+            $('#franchise_lead_country').val(adrs[0]);
+
+
+       }
+     });
+
+     })
+
+    })
+
+  </script>
+
+                            <!-- Start of Bing Pixel -->
+                            <script>(function(w,d,t,r,u){var f,n,i;w[u]=w[u]||[],f=function(){var o={ti:"5712751"};o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")},n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function(){var s=this.readyState;s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)},i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)})(window,document,"script","../bat.bing.com/bat.js","uetq");</script><noscript><img src="http://bat.bing.com/action/0?ti=5712751&amp;Ver=2" height="0" width="0" style="display:none; visibility: hidden;" /></noscript>
+                            <!-- End of Bing Pixel -->
+                          </body>
+
+                          <!-- Mirrored from ufcgymfranchise.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 14 Feb 2018 06:34:49 GMT -->
+                          </html>
